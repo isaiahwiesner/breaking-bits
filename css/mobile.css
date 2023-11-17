@@ -1,0 +1,7 @@
+nav .logo {
+    display: none;
+}
+nav .nav-items {
+    margin: 0;
+    width: 100%;
+}

@@ -40,8 +40,17 @@ nav {
 nav .logo {
     height: 96px;
     width: auto;
+    position: absolute;
 }
-nav a {
+nav .nav-items {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav .nav-items a {
     text-decoration: none;
     font-size: 20px;
 }
@@ -57,4 +66,19 @@ nav a div {
 }
 nav a:hover div {
     background-color: var(--hovergreen);
+}
+
+.title {
+    font-family: 'pixeloid';
+    text-align: center;
+    color: var(--green);
+}
+.content-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 10px auto 10px auto;
+}
+.content-container p {
+    margin-top: 16px;
+    font-size: 20px;
 }
