@@ -70,8 +70,10 @@ nav a:hover div {
 
 .title {
     font-family: 'pixeloid';
-    text-align: center;
     color: var(--green);
+}
+.center {
+    text-align: center;
 }
 .content-container {
     width: 100%;
@@ -81,4 +83,11 @@ nav a:hover div {
 .content-container p {
     margin-top: 16px;
     font-size: 20px;
+}
+.content-container a {
+    color: var(--green);
+    transition: color 150ms ease-in-out;
+}
+.content-container a:hover {
+    color: var(--hovergreen);
 }
